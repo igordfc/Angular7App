@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
+
+input.ng-touched.ng-invalid{
+    border-color: #fd011a;
+
+}
+input.ng-valid{
+    border-color: #10bd00;
+}
+
+.green-icon{
+    color: #10bd00;
+}
+
+.red-icon{
+    color: #fd011a;
+}
+#toast-container>div{
+    opacity: 1;
+}
+
+
+table tr:hover{
+    cursor:pointer;
+    background: #10bd00;
+     box-shadow: 10px 10px 5px lightgrey;
+}
+
+.fa-trash-alt:td{
+    background-color: #fd011a;
+}
